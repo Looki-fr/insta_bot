@@ -6,3 +6,5 @@ you need to have chrome browser installed on your computer
 
 you also have to install selenium
 
+the process will be long (20 secondes for each unfollow) but its to not be ban by instagram, if you want to change the time of wait its line 181
+
