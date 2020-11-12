@@ -10,3 +10,5 @@ the process will be long (20 secondes for each unfollow) but its to not be ban b
 
 read the line 173 if you have a bug and modify the code like it say (for some people it work witout modifing but for others no idk why)
 
+if its still don't work add me on discord I'll help you : Looki#0302
+
