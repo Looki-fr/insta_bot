@@ -8,3 +8,5 @@ you also have to install selenium
 
 the process will be long (20 secondes for each unfollow) but its to not be ban by instagram, if you want to change the time of wait its line 181
 
+read the line 173 if you have a bug and modify the code like it say (for some people it work witout modifing but for others no idk why)
+
