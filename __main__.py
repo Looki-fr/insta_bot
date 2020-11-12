@@ -170,7 +170,8 @@ class Internet:
             if person not in self.list_followers_string:
                 
                 # click to 'unfollow' button
-                self.driver.find_element_by_xpath(f'/html/body/div[5]/div/div/div[2]/ul/div/li[{num+1}]/div/div[3]/button').click()
+                # if you got an error here replace div[3] by div[2] before /button[1] so you'll get : f'/html/body/div[5]/div/div/div[2]/ul/div/li[{num+1}]/div/div[2]/button'
+                self.driver.find_element_by_xpath(f'/html/body/div[5]/div/div/div[2]/ul/div/li[{num+1}]/div/div[3]/button').click() 
 
                 # confirm your choice while clicking on the confirmation button
                 element = WebDriverWait(self.driver, 10).until(
@@ -178,6 +179,7 @@ class Internet:
         )
 
                 self.driver.find_element_by_xpath('/html/body/div[6]/div/div/div/div[3]/button[1]').click()
+                time.sleep(20) # it'll be long but you don't want to get ban :)
 
 if __name__ == '__main__':
     username = input("enter your username : ")
