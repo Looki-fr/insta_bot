@@ -115,12 +115,12 @@ class Internet:
         # panel that will be use to scroll down
         followers_panel = self.driver.find_element_by_xpath('/html/body/div[5]/div/div/div[2]') 
 
-        # scroll down for every 8 followers that you have to load every followers
-        for i in range(round(self.number_of_followers / 8 )):
+        # scroll down for every 5 followers that you have to load every followers
+        for i in range(round(self.number_of_followers / 5 )):
             self.driver.execute_script(
                     "arguments[0].scrollTop = arguments[0].scrollHeight + arguments[0].offsetHeight;",followers_panel
                 )
-            time.sleep(0.5)
+            time.sleep(0.2)
 
         # put every followers 'href' in a list
         list_followers = self.driver.find_elements_by_xpath('//span/a[@href]')
@@ -148,12 +148,12 @@ class Internet:
         # panel that will be use to scroll down
         followers_panel = self.driver.find_element_by_xpath('/html/body/div[5]/div/div/div[2]')
 
-        # scroll down for every 8 follow that you have to load every follow
-        for i in range(round(self.number_of_follow / 8 )):
+        # scroll down for every 5 follow that you have to load every follow
+        for i in range(round(self.number_of_follow / 5 )):
             self.driver.execute_script(
                     "arguments[0].scrollTop = arguments[0].scrollHeight + arguments[0].offsetHeight;",followers_panel
                 )
-            time.sleep(0.5)
+            time.sleep(0.2)
         
         # put every 'href' of the people that you follow in a list
         list_follow = self.driver.find_elements_by_xpath('//span/a[@href]')
