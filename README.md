@@ -1,9 +1,11 @@
 # insta_bot
+run the .py file, not the .exe file (its a driver for chrome)
+
+you need to have chrome browser installed on your computer
+
 You'll have to enter your username (not email !!)
 
 the unfollow method (choice '2') will not work if you have like 900+ followers
-
-you need to have chrome browser installed on your computer
 
 you also have to install python 3 and selenium (its a module for python)
 
