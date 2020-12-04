@@ -47,10 +47,6 @@ class Internet:
         method that will connect the Chrome to instagram and click to the differents pop ups such as 'accept cookies'
         
         """
-        self.white_list = [
-            
-        ]
-
         self.tags_before = [
             "spicymemes",
             "memes",
