@@ -1,3 +1,4 @@
+# OUTDATED
 # insta_bot
 run the .py file, not the .exe file (its a driver for chrome)
 
